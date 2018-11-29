@@ -24,6 +24,3 @@ This command will build the containers and start the servers. All logging will b
 
 	$ docker-compose up -d
 
-### install Drupal composer updates
-
-	$ docker-compose exec composer composer install -o

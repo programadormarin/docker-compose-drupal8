@@ -16,7 +16,7 @@ services:
             - php-fpm
             - mysql
     composer:
-        container_name: drupal_composer
+        container_name: drupal8_composer
         build: ./devops/composer
         user: "1000"
         volumes:
@@ -35,7 +35,7 @@ services:
             - PHP_IDE_CONFIG=serverName=viqua.local
     mysql:
         build: ./devops/mysql
-        container_name: drupal_mysql
+        container_name: drupal8_mysql
         env_file:
             - .env
         environment:
