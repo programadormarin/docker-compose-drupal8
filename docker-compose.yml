@@ -1,0 +1,50 @@
+version: '3.5'
+
+services:
+    nginx:
+        image: nginx
+        container_name: drupal8_nginx
+        volumes:
+            - ./devops/nginx/default.conf:/etc/nginx/conf.d/default.conf
+            - ./app:/var/www/html
+        ports:
+            - 80:80
+        environment:
+            - NGINX_HOST=${NGINX_HOST}
+        restart: always
+        depends_on:
+            - php-fpm
+            - mysql
+    composer:
+        container_name: drupal_composer
+        build: ./devops/composer
+        user: "1000"
+        volumes:
+            - ./app:/app
+            - ./.composer_cache:/composer/cache
+        command: composer install --prefer-dist -o
+        depends_on:
+            - php-fpm
+    php-fpm:
+        build: ./devops/php
+        restart: always
+        volumes:
+            - ./devops/php/php.ini:/usr/local/etc/php/conf.d/php.ini
+            - ./app:/var/www/html
+        environment:
+            - PHP_IDE_CONFIG=serverName=viqua.local
+    mysql:
+        build: ./devops/mysql
+        container_name: drupal_mysql
+        env_file:
+            - .env
+        environment:
+            - MYSQL_DATABASE=${MYSQL_DATABASE}
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+        ports:
+            - 3306:3306
+        volumes:
+            - ./.data/db/mysql:/var/lib/mysql
+        restart: always
