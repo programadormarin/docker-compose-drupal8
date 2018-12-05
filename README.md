@@ -9,14 +9,8 @@
 
 ### Download this repository
 
-	$ git clone git@github.com:programadormarin/docker-compose-drupal8.git Drupal8-Docker
-	$ cd Drupal8-Docker
-
-### Copy drupal code into /app folder
-
-Start a new terminal (because the other one is running our containers) and copy the Drupal 8 code into the ./app folder.
-
-	$ git clone --branch 8.6.x http://git.drupal.org/project/drupal.git app
+	$ git clone git@github.com:programadormarin/docker-compose-drupal8.git drupal8
+	$ cd drupal8
 
 ### Start the docker containers
 
@@ -24,3 +18,6 @@ This command will build the containers and start the servers. All logging will b
 
 	$ docker-compose up -d
 
+### Login in Drupal 8 administration
+Login: admin
+Password: admin123

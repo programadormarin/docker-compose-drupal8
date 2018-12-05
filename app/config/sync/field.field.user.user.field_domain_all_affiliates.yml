@@ -1,0 +1,22 @@
+uuid: 9b79dc0e-b2fc-4e29-992a-17be5104e953
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_domain_all_affiliates
+  module:
+    - user
+id: user.user.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: user
+bundle: user
+label: 'Editor for all affiliates'
+description: 'Make this user an editor on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

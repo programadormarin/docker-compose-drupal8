@@ -1,0 +1,11 @@
+uuid: fbea448d-19db-4233-9781-a7507caea8fb
+langcode: pt-br
+status: true
+dependencies: {  }
+id: sitedrupal2
+domain_id: 15442892
+hostname: sitedrupal1.local
+name: 'Site 1'
+scheme: http
+weight: 2
+is_default: false

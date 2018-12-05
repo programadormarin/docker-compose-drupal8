@@ -1,0 +1,14 @@
+uuid: 933da936-00b4-455c-80ef-558e437897ac
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.sitedrupal2
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.sitedrupal2
+label: 'Remove editors from the Site 1 domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: sitedrupal2

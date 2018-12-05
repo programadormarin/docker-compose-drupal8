@@ -1,0 +1,16 @@
+uuid: b471a64b-f4b4-43d2-ad71-664cfc1f12e7
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Qf1B6Oytv6SDX58ba6IfUBGsq76oCUzu5Mpp9fevDJw
+id: anonymous
+label: 'Usuário anônimo'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'

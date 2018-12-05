@@ -1,0 +1,14 @@
+uuid: 3da6405a-d7f3-4f44-b086-bbd3ee2eac0e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.sitedrupal2
+  module:
+    - domain_access
+id: domain_access_remove_action.sitedrupal2
+label: 'Remove selected content from the Site 1 domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: sitedrupal2

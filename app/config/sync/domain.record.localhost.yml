@@ -1,0 +1,11 @@
+uuid: c98b415c-d1a8-4e3e-9fe6-9af8a9bbc0f5
+langcode: pt-br
+status: true
+dependencies: {  }
+id: localhost
+domain_id: 6418186
+hostname: localhost
+name: 'Drupal 8'
+scheme: http
+weight: 1
+is_default: true

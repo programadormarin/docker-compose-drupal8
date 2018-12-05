@@ -1,0 +1,14 @@
+uuid: 8e34d6a3-7666-466e-ba02-d90fb933f73e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.sitedrupal2
+  module:
+    - domain_access
+id: domain_access_add_action.sitedrupal2
+label: 'Add selected content to the Site 1 domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: sitedrupal2

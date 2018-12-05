@@ -1,0 +1,14 @@
+uuid: 8c0ed439-a08d-43f5-85ed-b886892520e4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.sitedrupal2_local
+  module:
+    - domain_access
+id: domain_access_remove_action.sitedrupal2_local
+label: 'Remove selected content from the Site 2 domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: sitedrupal2_local

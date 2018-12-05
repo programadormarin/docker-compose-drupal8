@@ -1,0 +1,22 @@
+uuid: 315a9be2-23c0-4516-bdc1-63d0eea311a2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_business
+_core:
+  default_config_hash: Fuvo_V2eVvIP87aTfCPvxZp6d5ggdIwcWaPSVVRKsa8
+id: bootstrap_business_content
+theme: bootstrap_business
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,10 @@
+domain_theme_switch: null
+_core:
+  default_config_hash: kJn9ZBat-EegfO5XDrMVxL_UGlXJY-dV16y8wItQOIw
+langcode: pt-br
+localhost_site: umami
+localhost_admin: seven
+sitedrupal2_site: bootstrap_business
+sitedrupal2_admin: seven
+sitedrupal2_local_site: nexus
+sitedrupal2_local_admin: seven

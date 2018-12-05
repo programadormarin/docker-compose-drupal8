@@ -1,0 +1,14 @@
+uuid: 10b3c4f0-3707-4fc3-a3aa-57f6d040b0ec
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.localhost
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.localhost
+label: 'Remove editors from the Drupal 8 domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: localhost

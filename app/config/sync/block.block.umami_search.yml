@@ -1,0 +1,22 @@
+uuid: 8a94d690-5e2e-46bb-9d03-f83fa6ba2959
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - umami
+_core:
+  default_config_hash: mscXHSYJmHeDvH4yB8D1lARAHXe1A7ZsYohvnWwlrCw
+id: umami_search
+theme: umami
+region: pre_header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+visibility: {  }

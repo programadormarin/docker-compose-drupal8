@@ -1,0 +1,14 @@
+uuid: c97356ce-c0ac-485c-85d4-6227cdfde7f5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.localhost
+  module:
+    - domain_access
+id: domain_access_remove_action.localhost
+label: 'Remove selected content from the Drupal 8 domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: localhost

@@ -1,0 +1,14 @@
+uuid: 259c2536-d975-41a0-afd8-22a08485493d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.localhost
+  module:
+    - domain_access
+id: domain_access_add_action.localhost
+label: 'Add selected content to the Drupal 8 domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: localhost

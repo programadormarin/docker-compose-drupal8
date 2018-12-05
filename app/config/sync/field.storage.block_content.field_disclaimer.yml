@@ -1,0 +1,21 @@
+uuid: e08020bf-b088-4549-8398-d2176ee0d3d4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+_core:
+  default_config_hash: 9f01IQ8P7CSySVZJKdTjI31y-qpa8ObmZDLGsUSoNeY
+id: block_content.field_disclaimer
+field_name: field_disclaimer
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

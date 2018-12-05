@@ -1,0 +1,22 @@
+uuid: 4388eae7-60c8-48ed-9004-6990e9a2b0d1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: L4M_MmPr8qrKNnPYxf_1w6y--YsIH2IISGB0T4KUzDU
+id: node.field_preparation_time
+field_name: field_preparation_time
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

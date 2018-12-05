@@ -1,0 +1,22 @@
+uuid: a25ac787-ad89-4a31-85ad-0e76476f6e03
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - umami
+_core:
+  default_config_hash: D_u42KUsn2FJ3U01b1I7e0dyrCHEwk3KbFY1omR1i-s
+id: umami_local_tasks
+theme: umami
+region: tabs
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Abas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

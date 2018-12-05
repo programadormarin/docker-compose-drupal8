@@ -1,0 +1,14 @@
+uuid: bece1863-a48c-4cd5-9a12-6b2f93fda7a8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.localhost
+  module:
+    - domain_access
+id: domain_access_add_editor_action.localhost
+label: 'Add editors to the Drupal 8 domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: localhost

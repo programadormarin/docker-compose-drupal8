@@ -1,0 +1,17 @@
+uuid: 0c2ea2fd-c195-4667-9a90-acd45292b43b
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LTiDqWmOoCX5_tuxCN2XJriXv9LxTNDdxvy-RnITh5Y
+id: authenticated
+label: 'Usuário autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view media'

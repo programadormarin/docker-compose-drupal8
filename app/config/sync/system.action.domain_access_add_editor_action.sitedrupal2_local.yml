@@ -1,0 +1,14 @@
+uuid: 0352cb4a-5653-4dce-a1fa-9d072cba0162
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - domain.record.sitedrupal2_local
+  module:
+    - domain_access
+id: domain_access_add_editor_action.sitedrupal2_local
+label: 'Add editors to the Site 2 domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: sitedrupal2_local

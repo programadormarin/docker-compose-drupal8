@@ -21,11 +21,12 @@ services:
         user: "1000"
         volumes:
             - ./app:/app
-            - ./.composer_cache:/composer/cache
+            - ./.composer_cache:/tmp/cache
         command: composer install --prefer-dist -o
         depends_on:
             - php-fpm
     php-fpm:
+        container_name: drupal8_php-fpm
         build: ./devops/php
         restart: always
         volumes:
