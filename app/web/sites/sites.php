@@ -58,5 +58,5 @@
 
 $sites = [];
 $sites['localhost'] = 'default';
-$sites['sitedrupal1.local'] = 'sitedrupal1';
-$sites['sitedrupal2.local'] = 'sitedrupal2';
+$sites['sitedrupal1.local'] = 'default';
+$sites['sitedrupal2.local'] = 'default';
